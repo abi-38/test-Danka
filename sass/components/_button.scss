@@ -1,0 +1,43 @@
+@import '../base/typo';
+
+.btn {
+    height: 40px;
+    width: 137px;
+    border-radius: 50px;
+    padding: 0px 20px 0px 20px;
+    background-color: black;
+    color: white;
+    border: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roober';
+    font-size: 1rem;
+    font-weight: 600;
+    &__white {
+        background-color: white;
+        color: black;
+        width: 191px;
+        height: 60px;
+        border-radius: 60px;
+        font-weight: 500;
+    }
+}
+
+.etiquette {
+    width: 87px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 0px 8px 2px 8px;
+    font-family: 'Roober';
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &__large {
+        width: 103px;
+    }
+}

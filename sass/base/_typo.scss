@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Roober';
+    src: url('../../.public/font/DP_roobert/Roobert-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../../.public/font/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+h1 {
+    color: white;
+    font-family: 'Roober';
+    font-size: 5.625rem;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+.h2 {
+    font-family: 'Roober';
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 64px;
+    &__section4-h2NoMarginBot {
+        margin-bottom: 0px !important;
+    }
+}
+
+h3, .h3-large {
+    font-family: 'Roober';
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.h3-medium {
+    font-size: 1.5rem;
+    margin-top: 23px;
+}
+
+.h3-large {
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'Roober';
+    font-size: 0.813rem;
+}
+
+p {
+    font-family: 'Roober';
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+}
+
+.p-small {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+span {
+    font-family: 'Inter';
+    font-size: 0.875rem;
+    margin-top: 120px;
+    text-transform : uppercase;
+}
+
+nav {
+    font-family: 'Roober';
+    font-size: 1rem;
+    font-weight: 500;
+}

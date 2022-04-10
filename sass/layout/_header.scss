@@ -1,0 +1,54 @@
+header > nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 124px;
+    > ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        > li {
+            list-style: none;
+            margin-left: 20px;
+            > div {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                height: 19vh;
+                > img {
+                    padding-right: 5px;
+                }
+                > #trait1 {
+                    position: absolute;
+                    top: 71px;
+                    right: 800px;
+                }
+            }
+        }
+    }
+}
+
+.bandeau {
+    background-color: $color-primary;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-image: url("../../.public/img/2.header/header.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 610px;
+}
+
+
+
+#logo {
+    position: absolute;
+    top: 27px;
+    right: 45%;
+}

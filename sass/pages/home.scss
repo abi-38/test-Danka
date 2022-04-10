@@ -1,0 +1,114 @@
+@import '../utils/variables';
+
+.section {
+    &__green {
+        background-color: $color-secondary;
+    }
+    > div {
+        display: flex;
+        justify-content: center;
+        div {
+            width: 270px;
+            margin-right: 32px;
+            > figure {
+                width: 270px;
+                height: 220px;
+                border-radius: 6px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px;
+                > img {
+                    height: 220px;
+                }
+            }
+            > figcaption {
+                margin-bottom: 189px;
+            }
+        }      
+    }
+}
+
+.section2-titre {
+    width: 530px;
+    justify-content: space-between !important;
+    align-items: baseline;
+    > img#coeur {
+        position: absolute;
+        right: 480px;
+    }
+    > img#union {
+        height: 37px;
+    }
+}
+
+.section2-img {
+    width: 88.3vw;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 227px;
+    > img {
+        height: 600px;  
+    }
+}
+
+.section2-encadre {
+    background-color: white;
+    border-radius: 6px;
+    flex-direction: column;
+    padding-left: 3.6vw;
+    padding-right: 3.6vw;
+    padding-bottom: 30px;
+    width: 35.5vw;
+    height: 327px;
+    position: absolute;
+    right: 13.4vw;
+    top: 2225px;
+}
+
+.section3-titre {
+    width: 90vw;
+    > img {
+        margin-top: 35px;
+    }
+}
+
+.section3-colones {
+    justify-content: space-around !important;
+    width: 60vw;
+    > .section3-coloneImg {
+        flex-direction: column;
+        > div {
+            > figure {
+                width: 28vw;
+                height: 540px;
+                overflow: hidden;
+                border-radius: 6px;
+                > img {
+                    width: 32vw;
+                    height: auto;
+                }
+            }
+            > .section3-figNoMarginBot {
+                margin-bottom: 0px;
+            }
+            > .section3-figMarginTop {
+                margin-top: 65px;
+            }
+        }
+    }
+}
+
+.section4 {
+    flex-direction: row;
+    background-color: $color-tertiary;
+    height: 700px;
+    > .section4-div {
+        flex-direction: column;
+        padding: 50px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}

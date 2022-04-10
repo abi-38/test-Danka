@@ -21,48 +21,125 @@
             <img src="./.public/img/1.menu/logo.png" alt="logo" id="logo">
             <ul>
                 <li><div><img src="./.public/img/1.menu/search.svg"></div></li>
-                <li><button><!--introduire un icone fontansome ici--><img src="./.public/img/1.menu/boutique.svg"> Boutique</button></li>
+                <li><button class="btn"><!--introduire un icone fontansome ici--><img src="./.public/img/1.menu/boutique.svg"> Boutique</button></li>
                 <li><img src="./.public/img/1.menu/nombre-article.png" ><img src="./.public/img/1.menu/icons-panier.png"></li>
             </ul>
         </nav>
-        <div><p>Une visite, une excursions, un pass culture ?</p><a>Visitez notre boutique</a></div>
-        <div>
+        <div class="bandeau"><p>Une visite, une excursions, un pass culture ?<a> Visitez notre boutique</a></p></div>
+        <div class="header">
             <h1>Bienvenue chez vous !</h1>
-            <button><img src="./.public/img/2.header/fleche.svg">Voir la vidéo</button>
+            <button class="btn btn__white"><img src="./.public/img/2.header/fleche.svg">Voir la vidéo</button>
         </div>
     </header>
     <main>
-        <section>
+        <section class="section">
             <span>Agenda</span>
-            <h2>Cette semaine à Lyon</h2>
+            <h2 class="h2">Cette semaine à Lyon</h2>
+            <div>
+                <div>
+                    <figure>
+                        <img src="./.public/img/3.section1/le-voyage-de-gulliver.png"/>
+                    </figure>
+                    <figcaption>
+                        <button class="etiquette">EXPOSITION</button>
+                        <h3>Le voyage de Guliver</h3>
+                        <h4>A partir du 15.01.2022</h4>
+                    </figcaption>
+                </div>              
+                <div>
+                    <figure>
+                        <img src="./.public/img/3.section1/hyper-realiste-ceci-nest-pas-un-corps.png"/>
+                    </figure>
+                    <figcaption>
+                        <button class="etiquette">EXPOSITION</button>
+                        <h3>Hyperréalisme ceci n'est pas un corps</h3>
+                        <h4>A partir du 15.01.2022</h4>
+                    </figcaption>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./.public/img/3.section1/patinoire-ephemere.png"/>
+                    </figure>
+                    <figcaption>
+                        <button class="etiquette">EXPOSITION</button>
+                        <h3>Patrimoine éphémère</h3>
+                        <h4>A partir du 15.01.2022</h4>
+                    </figcaption>    
+                </div>
+                <div>
+                    <figure>
+                        <img src="./.public/img/3.section1/maria-de-buenos-aires-a-lopera.png"/>
+                    </figure>
+                    <figcaption>
+                        <button class="etiquette">EXPOSITION</button>
+                        <h3>Maria de Buenos Aires à l'Opéra de Lyon</h3>
+                        <h4>A partir du 15.01.2022</h4>
+                    </figcaption>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="section section__green">
             <span>On aime</span>
-            <div>
-                <h2>Coup de coeur</h2>
-                <img src="./.public/img/4.section2/coeur.svg">
-                <img src="./.public/img/4.section2/Union.png">
+            <div class="section2-titre">
+                <h2 class="h2">Coup de coeur</h2>
+                <img id="coeur" src="./.public/img/4.section2/coeur.svg">
+                <img id="union" src="./.public/img/4.section2/Union.png">
             </div>
-            <div><img src="./.public/img/4.section2/coup-de-coeur.png"></div>
-            <div>
-                <span>Gastronomie</span>
-                <h3>Lyon nouvelle terre de café</h3>
-                <button>Découvrir</button>
+            <div class="section2-img"><img src="./.public/img/4.section2/coup-de-coeur.png"></div>
+            <div class="section2-encadre">
+                <button class="etiquette etiquette__large">GASTRONOMIE</button>
+                <h3 class="h3-large">Lyon, nouvelle terre de café</h3>
+                <p>Erat commodi lacinia rerum morbi metus taciti habitant vivamus hominem consectur ullamco volutpat qui pariatur laboris</p>
+                <button class="btn">Découvrir</button>
             </div>
         </section>
-        <section>
+        <section class="section">
             <span>A découvrir</span>
-            <div>
-                <h2>Laissez-nous vous présenter Lyon</h2>
+            <div class="section3-titre">
+                <h2 class="h2">Laissez-nous vous présenter Lyon</h2>
                 <img src="./.public/img/5.section3/tourbillon.svg">
             </div>
+            <div class="section3-colones">
+                <div class="section3-coloneImg">
+                    <div>
+                        <figure><img src="./.public/img/5.section3/la-ville-et-ses-environs.png" alt=""></figure>
+                        <figcaption class="section3-figNoMarginBot">
+                            <h3 class="h3-medium">La ville et ses envrions</h3>
+                            <p class="p-small">Ullam ratione mollit ducimus</p>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><img src="./.public/img/5.section3/culture-et-loisirs.png" alt=""></figure>
+                        <figcaption>
+                            <h3 class="h3-medium">Culture et loisirs</h3>
+                            <p class="p-small">Ullam ratione mollit ducimus</p>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="section3-coloneImg">
+                    <div>
+                        <figure class="section3-figMarginTop"><img src="./.public/img/5.section3/Gastronomie.png" alt=""></figure>
+                        <figcaption class="section3-figNoMarginBot">
+                            <h3 class="h3-medium">Gastronomie</h3>
+                            <p class="p-small">Ullam ratione mollit ducimus</p>
+                        </figcaption>
+                    </div>
+                    <div>
+                        <figure><img src="./.public/img/5.section3/shopping.png" alt=""></figure>
+                        <figcaption>
+                            <h3 class="h3-medium">Shopping</h3>
+                            <p class="p-small">Ullam ratione mollit ducimus</p>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="section section4">
             <div><img src="./.public/img/6.section4/nos-conseillers.png"></div>
-            <div>
-                <h2>Nos conseillez vous attendent</h2>
+            <div class="section4-div">
+                <h2 class="h2 h2__section4-h2NoMarginBot">Nos conseillez vous attendent</h2>
                 <p>Vous retrouverez au pavillon ONLYLYON une équipe disponible 7j/7 de 9h30 à 18h pour rendre votre séjour à Lyon inoubliable !</p>
-                <button>Nous contacter</button>
+                <button class="btn btn__white">Nous contacter</button>
             </div>
         </section>
     </main>

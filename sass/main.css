@@ -1,0 +1,458 @@
+body {
+  margin: 0px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@font-face {
+  font-family: 'Roober';
+  src: url("../../.public/font/DP_roobert/Roobert-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../../.public/font/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+h1 {
+  color: white;
+  font-family: 'Roober';
+  font-size: 5.625rem;
+  font-weight: 900;
+  line-height: 80px;
+}
+
+.h2 {
+  font-family: 'Roober';
+  font-size: 3.125rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 64px;
+}
+
+.h2__section4-h2NoMarginBot {
+  margin-bottom: 0px !important;
+}
+
+h3, .h3-large {
+  font-family: 'Roober';
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.h3-medium {
+  font-size: 1.5rem;
+  margin-top: 23px;
+}
+
+.h3-large {
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Roober';
+  font-size: 0.813rem;
+}
+
+p {
+  font-family: 'Roober';
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+
+.p-small {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+span {
+  font-family: 'Inter';
+  font-size: 0.875rem;
+  margin-top: 120px;
+  text-transform: uppercase;
+}
+
+nav {
+  font-family: 'Roober';
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn {
+  height: 40px;
+  width: 137px;
+  border-radius: 50px;
+  padding: 0px 20px 0px 20px;
+  background-color: black;
+  color: white;
+  border: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roober';
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn__white {
+  background-color: white;
+  color: black;
+  width: 191px;
+  height: 60px;
+  border-radius: 60px;
+  font-weight: 500;
+}
+
+.etiquette {
+  width: 87px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  padding: 0px 8px 2px 8px;
+  font-family: 'Roober';
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.etiquette__large {
+  width: 103px;
+}
+
+header > nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 124px;
+}
+
+header > nav > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header > nav > ul > li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header > nav > ul > li > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 19vh;
+}
+
+header > nav > ul > li > div > img {
+  padding-right: 5px;
+}
+
+header > nav > ul > li > div > #trait1 {
+  position: absolute;
+  top: 71px;
+  right: 800px;
+}
+
+.bandeau {
+  background-color: #9AC4F5;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  background-image: url("../../.public/img/2.header/header.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 610px;
+}
+
+#logo {
+  position: absolute;
+  top: 27px;
+  right: 45%;
+}
+
+@font-face {
+  font-family: 'Roober';
+  src: url("../../.public/font/DP_roobert/Roobert-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../../.public/font/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+h1 {
+  color: white;
+  font-family: 'Roober';
+  font-size: 5.625rem;
+  font-weight: 900;
+  line-height: 80px;
+}
+
+.h2 {
+  font-family: 'Roober';
+  font-size: 3.125rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 64px;
+}
+
+.h2__section4-h2NoMarginBot {
+  margin-bottom: 0px !important;
+}
+
+h3, .h3-large {
+  font-family: 'Roober';
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.h3-medium {
+  font-size: 1.5rem;
+  margin-top: 23px;
+}
+
+.h3-large {
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Roober';
+  font-size: 0.813rem;
+}
+
+p {
+  font-family: 'Roober';
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+
+.p-small {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+span {
+  font-family: 'Inter';
+  font-size: 0.875rem;
+  margin-top: 120px;
+  text-transform: uppercase;
+}
+
+nav {
+  font-family: 'Roober';
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section__green {
+  background-color: #9EECC6;
+}
+
+.section > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section > div div {
+  width: 270px;
+  margin-right: 32px;
+}
+
+.section > div div > figure {
+  width: 270px;
+  height: 220px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+}
+
+.section > div div > figure > img {
+  height: 220px;
+}
+
+.section > div div > figcaption {
+  margin-bottom: 189px;
+}
+
+.section2-titre {
+  width: 530px;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.section2-titre > img#coeur {
+  position: absolute;
+  right: 480px;
+}
+
+.section2-titre > img#union {
+  height: 37px;
+}
+
+.section2-img {
+  width: 88.3vw;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 227px;
+}
+
+.section2-img > img {
+  height: 600px;
+}
+
+.section2-encadre {
+  background-color: white;
+  border-radius: 6px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 3.6vw;
+  padding-right: 3.6vw;
+  padding-bottom: 30px;
+  width: 35.5vw;
+  height: 327px;
+  position: absolute;
+  right: 13.4vw;
+  top: 2225px;
+}
+
+.section3-titre {
+  width: 90vw;
+}
+
+.section3-titre > img {
+  margin-top: 35px;
+}
+
+.section3-colones {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  width: 60vw;
+}
+
+.section3-colones > .section3-coloneImg {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section3-colones > .section3-coloneImg > div > figure {
+  width: 28vw;
+  height: 540px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.section3-colones > .section3-coloneImg > div > figure > img {
+  width: 32vw;
+  height: auto;
+}
+
+.section3-colones > .section3-coloneImg > div > .section3-figNoMarginBot {
+  margin-bottom: 0px;
+}
+
+.section3-colones > .section3-coloneImg > div > .section3-figMarginTop {
+  margin-top: 65px;
+}
+
+.section4 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #FFFB9B;
+  height: 700px;
+}
+
+.section4 > .section4-div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+}
+/*# sourceMappingURL=main.css.map */
