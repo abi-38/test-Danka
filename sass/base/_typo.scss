@@ -54,9 +54,20 @@ p {
     margin-bottom: 30px;
 }
 
-.p-small {
+.p-large {
+    font-family: 'Roober';
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.p-small, .footer-copyright {
     font-size: 1rem;
     margin-top: 5px;
+}
+
+.footer-copyright {
+    margin-bottom: 0px;
 }
 
 span {
@@ -70,4 +81,16 @@ nav {
     font-family: 'Roober';
     font-size: 1rem;
     font-weight: 500;
+}
+
+.footer-nav {
+    font-family: 'Roober';
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+input {
+    font-family: 'Roober';
+    font-size: 1rem;
+    font-weight: 400;
 }

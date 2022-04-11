@@ -1,0 +1,70 @@
+footer {
+    background-color: black;
+    color: white;
+    > .footer-newsletter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 10px;
+        > p {
+            padding-right: 20px;
+            margin-bottom: 18px;
+        }
+        > .footer-divInput {
+            border: 1px solid white;
+            border-radius: 50px;
+            width: 47vw;
+            height: 60px;
+            justify-content: space-between;
+            display: flex;
+            > input, > button {
+                background-color: transparent;
+                border: none;
+                color: white;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+        }
+    }
+    > .footer-information {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 90px;
+        > div {
+            > nav > ul {
+                list-style: none;
+                > li {
+                    border-bottom: 1px solid;
+                    padding: 10px 250px 20px 0px;
+                }
+            }
+            > .footer-icones {
+                justify-content: space-between;
+                display: flex;
+                width: 25vw;
+                > img {
+                    border: 1px solid;
+                    border-radius: 100px;
+                    padding: 14px;
+                }
+            }
+        }
+    }
+    > .footer-basDePage {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top: 1px solid;
+        > div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 20vw;
+        }
+    }
+}
+
