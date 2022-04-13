@@ -22,12 +22,13 @@
             <ul>
                 <li><div><img src="./.public/img/1.menu/search.svg"></div></li>
                 <li><button class="btn"><img src="./.public/img/1.menu/boutique.svg"> Boutique</button></li>
-                <li><img src="./.public/img/1.menu/nombre-article.png" ><img src="./.public/img/1.menu/icons-panier.png"><!--introduire un icone fontansome ici--></li>
+                <li><img src="./.public/img/1.menu/nombre-article.png" ><img src="./.public/img/1.menu/icons-panier.png"><i class="fa-solid fa-basket-shopping-simple"></i></li>
             </ul>
         </nav>
         <div class="bandeau"><p>Une visite, une excursions, un pass culture ?<a> Visitez notre boutique</a></p></div>
         <div class="header">
             <h1>Bienvenue chez vous !</h1>
+            <img class="header-ligne" src="./.public/img/2.header/ligne.svg">
             <button class="btn btn__white"><img src="./.public/img/2.header/fleche.svg">Voir la vidéo</button>
         </div>
     </header>
@@ -35,7 +36,7 @@
         <section class="section">
             <span>Agenda</span>
             <h2 class="h2">Cette semaine à Lyon</h2>
-            <div>
+            <div class="caroussel">
                 <div class="section1-etiquette">
                     <figure>
                         <img src="./.public/img/3.section1/le-voyage-de-gulliver.png"/>
@@ -88,7 +89,7 @@
                 </div>   
             </div>
             <div class="section1-arrows">
-                <img src="./.public/img/3.section1/arrow-left.svg" />
+                <img class="arrow-margin" src="./.public/img/3.section1/arrow-left.svg" />
                 <img src="./.public/img/3.section1/arrow-right.svg" />
             </div>
         </section>
@@ -99,7 +100,8 @@
                 <img id="coeur" src="./.public/img/4.section2/coeur.svg">
                 <img id="union" src="./.public/img/4.section2/Union.png">
             </div>
-            <div class="section2-img"><img src="./.public/img/4.section2/coup-de-coeur.png"></div>
+            <div class="section2-img-destop"><img src="./.public/img/4.section2/coup-de-coeur1.png"></div>
+            <div class="section2-img-mobile"><img src="./.public/img/4.section2/coup-de-coeur.jpg"></div>
             <div class="section2-encadre">
                 <button class="etiquette etiquette__large">GASTRONOMIE</button>
                 <h3 class="h3-large">Lyon, nouvelle terre de café</h3>
@@ -159,10 +161,10 @@
     </main>
     <footer>
         <div class="footer-newsletter">
-            <p>Newsletter</p>
+            <p class="p-large">Newsletter</p>
             <div class="footer-divInput">
                 <input type="button" value="Votre email" placeholder="Votre email">
-                <button class="abonnement">Je m'abonne ></button>
+                <button class="abonnement">Je m'abonne <img src="./.public/img/7.footer/arrow-right-bis.svg"></button>
             </div> 
         </div>
         <div class="footer-information">
@@ -184,11 +186,11 @@
             <div>
                 <nav class="footer-nav">
                     <ul>
-                        <li>Professionnels <!--introduire un icone fontansome ici--></li>
-                        <li>Espace presse <!--introduire un icone fontansome ici--></li>
-                        <li>Tourisme d'affaires <!--introduire un icone fontansome ici--></li>
-                        <li>Groupes <!--introduire un icone fontansome ici--></li>
-                        <li>A propos <!--introduire un icone fontansome ici--></li>
+                        <li>Professionnels <img src="./.public/img/7.footer/arrow-down.svg"></li>
+                        <li>Espace presse <img src="./.public/img/7.footer/arrow-down.svg"></li>
+                        <li>Tourisme d'affaires <img src="./.public/img/7.footer/arrow-down.svg"></li>
+                        <li>Groupes <img src="./.public/img/7.footer/arrow-down.svg"></li>
+                        <li>A propos <img src="./.public/img/7.footer/arrow-down.svg"></li>
                     </ul>
                 </nav>
             </div>
@@ -196,7 +198,7 @@
         <div class="footer-basDePage">
             <div>
                 <img src="./.public/img/7.footer/logo-onlyLyon.png" alt="logo-onlyLyon">
-                <p class="footer-copyright">Fr <!--introduire un icone fontansome ici--></p>
+                <p class="footer-copyright">Fr <img src="./.public/img/7.footer/arrow-down.svg"></p>
             </div>
             <p class="footer-copyright">© 2022 Office du Tourisme et des Congrès de la métropole de Lyon</p>
         </div>

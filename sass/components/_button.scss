@@ -41,6 +41,12 @@
         width: 103px;
     }
 }
+@media (max-width: 800px) {
+    .etiquette {
+        margin-top: -5px;
+        margin-bottom: 8px;
+    }
+}
 
 .abonnement {
     font-family: 'Roober';

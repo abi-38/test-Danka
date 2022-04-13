@@ -7,11 +7,12 @@
     > div {
         display: flex;
         justify-content: center;
+        text-align: left;
         div {
-            width: 270px;
+            width: 18.75vw;
             margin-right: 32px;
             > figure {
-                width: 270px;
+                width: 18.75vw;
                 height: 220px;
                 border-radius: 6px;
                 overflow: hidden;
@@ -20,11 +21,33 @@
                 align-items: center;
                 margin: 0px;
                 > img {
-                    height: 220px;
+                    height: 15.2vw;
                 }
+            }
+            > figcaption {
+                text-align: left;
             }
         }      
     }
+}
+@media (max-width: 800px) {
+    .section__green {
+        padding-bottom: 702px;
+    }
+    .section > div.caroussel {
+        margin-left: 600px;
+        margin-bottom: 64px;
+        > div {
+            width: 56.8vw;
+            figure {
+                width: 56.8vw;
+                > img {
+                    width: 56.8vw;
+                    height: auto;
+                }
+            }
+        }
+    } 
 }
 
 .section1-etiquette {
@@ -35,10 +58,18 @@
     margin-bottom: 109px;
     width: 90vw;
     justify-content: right !important;
+    > img.arrow-margin {
+        margin-right: 8px;
+    }
+}
+@media (max-width: 800px) {
+    .section > div.section1-arrows {
+        display: none;
+    }
 }
 
 .section2-titre {
-    width: 530px;
+    width: 41.8vw;
     justify-content: space-between !important;
     align-items: baseline;
     > img#coeur {
@@ -49,8 +80,26 @@
         height: 37px;
     }
 }
+@media (max-width: 800px) {
+    .section2-titre {
+        width: 91.8vw;
+        > img#coeur {
+            position: absolute;
+            right: 106px;
+            top: 1418px;
+            width: 18vw;
+        }
+        > img#union {
+            width: 27.2vw;
+            height: auto;
+        }
+    }
+}
 
-.section2-img {
+div.section2-img-mobile {
+    display: none;
+}
+div.section2-img-destop {
     width: 88.3vw;
     height: 600px;
     overflow: hidden;
@@ -58,6 +107,18 @@
     margin-bottom: 227px;
     > img {
         height: 600px;  
+    }
+}
+@media (max-width: 800px) {
+    div.section2-img-destop {
+        display: none;
+    }
+    div.section2-img-mobile {
+        display: block;
+        height: 245px;
+        > img {
+            height: 245px;
+        }
     }
 }
 
@@ -73,6 +134,14 @@
     position: absolute;
     right: 13.4vw;
     top: 2225px;
+}
+@media (max-width: 800px) {
+    .section2-encadre {
+        right: 6vw;
+        top: 1689px;
+        width: 65.5vw;
+        padding-top: 30px;
+    }
 }
 
 .section3-titre {
