@@ -57,6 +57,13 @@ h3, .h3-large {
 
 .h3-large {
     font-size: 2rem;
+    font-weight: 600
+}
+
+@media (max-width: 800px) {
+    .h3-large {
+        font-size: 1.5;
+    }
 }
 
 h4 {
@@ -73,6 +80,11 @@ p {
     font-family: 'Roober';
     font-size: 1.125rem;
     margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+    p {
+        font-size: 0.875rem;
+    }
 }
 
 .p-large {
@@ -119,4 +131,8 @@ input {
     font-family: 'Roober';
     font-size: 1rem;
     font-weight: 400;
+}
+
+a {
+    text-decoration: underline;
 }

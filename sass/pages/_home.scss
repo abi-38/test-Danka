@@ -4,6 +4,12 @@
     &__green {
         background-color: $color-secondary;
     }
+    > img.section1-trait {
+        position: absolute;
+        top: 1000px;
+        right: 380px;
+        width: 9vw;
+    }
     > div {
         display: flex;
         justify-content: center;
@@ -32,7 +38,15 @@
 }
 @media (max-width: 800px) {
     .section__green {
-        padding-bottom: 702px;
+        height: 702px;
+        justify-content: initial;
+
+        > img.section1-trait {
+            position: absolute;
+            top: 914px;
+            right: 34px;
+            width: 21vw;
+        }
     }
     .section > div.caroussel {
         margin-left: 600px;
@@ -140,14 +154,36 @@ div.section2-img-destop {
         right: 6vw;
         top: 1689px;
         width: 65.5vw;
-        padding-top: 30px;
+        height: 301px;
+        padding-bottom: 0px;
     }
 }
 
 .section3-titre {
     width: 90vw;
+    > h2.h2.h2-mobile {
+        display: none;
+    }
     > img {
         margin-top: 35px;
+    }
+}
+@media (max-width: 800px) {
+    .section3-titre {
+        > h2.h2.h2-mobile {
+            display: block;
+            text-align: center;
+            width: 60vw;  
+        }
+        > img {
+            position: absolute;
+            right: 8.4%;
+            top: 421.5%;
+            width: 11vw;
+        } 
+        > h2.h2.h2-desktop {
+            display: none;
+        }
     }
 }
 
@@ -186,5 +222,16 @@ div.section2-img-destop {
         padding: 50px;
         padding-left: 90px;
         padding-right: 90px;
+    }
+}
+@media (max-width: 800px) {
+    .section.section4 {
+        flex-direction: column-reverse;
+        > div {
+            padding-left: 24px;
+            padding-right: 24px;
+            height: 378px;
+        
+        } 
     }
 }
