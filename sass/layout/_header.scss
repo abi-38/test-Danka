@@ -24,8 +24,8 @@ header {
                     }
                     > #trait1 {
                         position: absolute;
-                        top: 71px;
-                        right: 800px;
+                        top: 77px;
+                        right: 65.3vw;
                     }
                 }
             }
@@ -47,6 +47,9 @@ header {
     
     .header {
         background-image: url("../../public/img/header/header.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,12 +59,12 @@ header {
         > .header-ligne {
             width: 24vw;
             position: absolute;
-            top: 423px;
-            right: 144px;
+            top: 414px;
+            right: 14vw;
             @media (max-width: 800px) {
                 width: 41.6vw;
                 top: 458px;
-                right: 102px;
+                right: 27.2vw;
             }
         }
     }

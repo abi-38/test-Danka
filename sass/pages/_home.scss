@@ -7,7 +7,7 @@
     > img.section1-trait {
         position: absolute;
         top: 1000px;
-        right: 380px;
+        right: 32.3vw;
         width: 9vw;
     }
     > div {
@@ -48,24 +48,60 @@
             width: 21vw;
         }
     }
-    .section > div.caroussel {
-        margin-left: 600px;
-        margin-bottom: 64px;
-        > div {
-            width: 56.8vw;
-            figure {
-                width: 56.8vw;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: visible;
+	margin-left: 1vw;
+    scroll-snap-type: x mandatory;
+	text-align: left;
+	list-style: none;
+    .carousel-item {
+        flex: 1 0 22vw;
+        margin-left: 0rem;
+        scroll-snap-align: start;
+        .card-carousel {
+            width: 20vw;
+            > figure {
+                margin-left: 0px;
                 > img {
-                    width: 56.8vw;
-                    height: auto;
+                    width: 20vw;
                 }
             }
         }
-    } 
+    }
 }
 
-.section1-etiquette {
-    margin-left: 300px;
+@media (max-width: 800px) {
+    .carousel-items {
+        overflow-x: scroll;
+        padding: 4rem;
+        margin-left: 33px;
+        .carousel-item {
+            flex: 1 0 60vw;
+            > .card-carousel > figure {
+                margin-left: 0px;
+                > img {
+                    width: 56.8vw;
+                }
+            }
+        }
+    }
+}
+
+::-webkit-scrollbar-track {
+    background-color: grey;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 3px;
 }
 
 .section1-arrows {
@@ -83,12 +119,12 @@
 }
 
 .section2-titre {
-    width: 41.8vw;
+    width: 35.8vw;
     justify-content: space-between !important;
     align-items: baseline;
     > img#coeur {
         position: absolute;
-        right: 480px;
+        right: 39vw;
     }
     > img#union {
         height: 37px;
@@ -151,6 +187,7 @@ div.section2-img-destop {
 }
 @media (max-width: 800px) {
     .section2-encadre {
+        display: none !important;
         right: 6vw;
         top: 1689px;
         width: 65.5vw;
@@ -231,7 +268,12 @@ div.section2-img-destop {
             padding-left: 24px;
             padding-right: 24px;
             height: 378px;
+            > img {
+                width: 100vw;
+                height: auto;
+            }
         
         } 
     }
 }
+
