@@ -29,6 +29,9 @@ footer {
                     margin-left: 6px;
                 }
             }
+            .abonnement-Ok {
+                display: none;
+            }
         }
     }
     > .footer-information {
@@ -37,20 +40,16 @@ footer {
         align-items: baseline;
         padding: 90px;
         > div {
-            > nav.footer-nav {
-                width: 43vw;
-                > ul {
-                list-style: none;
-                width: 38vw;
-                    > li {
-                        border-bottom: 1px solid;
-                        padding: 10px 0px 20px 0px;
-                        width: 38vw;
-                        display: flex;
-                        justify-content: space-between;
-                        > img {
-                            width: 12px;
-                        }
+            > nav.footer-nav > ul {
+            list-style: none;
+                > li {
+                    border-bottom: 1px solid;
+                    padding: 10px 0px 20px 0px;
+                    width: 38vw;
+                    display: flex;
+                    justify-content: space-between;
+                    > img {
+                        width: 12px;
                     }
                 }
             } 
@@ -86,3 +85,52 @@ footer {
     }
 }
 
+@media (max-width: 800px) {
+    footer {
+        .footer-newsletter {
+            flex-wrap: wrap;
+            > p {
+                margin-bottom: 32px;
+                width: 90vw;
+                text-align: center;
+            }
+            > .footer-divInput {
+                width: 90vw;
+                .abonnement {
+                    display: none;
+                }
+                .abonnement-Ok {
+                    display: block;
+                }
+            }
+        }
+        .footer-information {
+            flex-wrap: wrap;
+            width: 90vw;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            padding-top: 0vw;
+            padding-bottom: 0vw;
+            div > nav.footer-nav > ul {
+                padding-left: 2vw;
+                > li {
+                    width: 70vw;
+                }
+            }
+            > div > .footer-icones {
+                width: 73vw;
+            }
+        }
+        .footer-basDePage {
+            flex-wrap: wrap;
+            margin-top: 30px;
+            > div {
+                width: 82vw;
+            }
+            > p {
+                width: 82vw;
+                margin-top: 18px;
+            }
+        }
+    }
+}

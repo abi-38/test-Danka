@@ -3,12 +3,7 @@
 .section {
     &__green {
         background-color: $color-secondary;
-    }
-    > img.section1-trait {
-        position: absolute;
-        top: 1000px;
-        right: 32.3vw;
-        width: 9vw;
+        position: relative;
     }
     > div {
         display: flex;
@@ -37,6 +32,9 @@
     }
 }
 @media (max-width: 800px) {
+    .section > div div {
+        width: 40vw;
+    }
     .section__green {
         height: 702px;
         justify-content: initial;
@@ -46,6 +44,27 @@
             top: 914px;
             right: 34px;
             width: 21vw;
+        }
+    }
+}
+.section.carousel {
+    position: relative;
+    > img.section1-trait {
+        position: absolute;
+        top: 202px;
+        right: 32.3vw;
+        width: 9vw;
+    }
+}
+@media (max-width: 800px) {
+    .section.carousel {
+        .h2 {
+            margin-bottom: 0px;
+        }
+        > img.section1-trait {
+            top: 122px;
+            right: 10vw;
+            width: 18vw;
         }
     }
 }
@@ -77,13 +96,19 @@
     .carousel-items {
         overflow-x: scroll;
         padding: 4rem;
-        margin-left: 33px;
+        padding-top: 0px;
+        margin-left: 45.3vw;
         .carousel-item {
             flex: 1 0 60vw;
-            > .card-carousel > figure {
-                margin-left: 0px;
-                > img {
-                    width: 56.8vw;
+            > .card-carousel {
+                > figure {
+                    margin-left: 0px;
+                    > img {
+                        width: 56.8vw;
+                    }
+                }
+                .card-content > figcaption {
+                    width: 53vw;
                 }
             }
         }
@@ -119,12 +144,15 @@
 }
 
 .section2-titre {
-    width: 35.8vw;
-    justify-content: space-between !important;
+    width: 80vw;
     align-items: baseline;
+    position: relative;
+    > .h2 {
+        margin-right: 3.4vw;
+    }
     > img#coeur {
         position: absolute;
-        right: 39vw;
+        right: 29.5vw;
     }
     > img#union {
         height: 37px;
@@ -133,10 +161,13 @@
 @media (max-width: 800px) {
     .section2-titre {
         width: 91.8vw;
+        > .h2 {
+            margin-right: 5.3vw;
+        }
         > img#coeur {
             position: absolute;
-            right: 106px;
-            top: 1418px;
+            right: 24.2vw;
+            top: -10px;
             width: 18vw;
         }
         > img#union {
@@ -183,13 +214,12 @@ div.section2-img-destop {
     height: 327px;
     position: absolute;
     right: 13.4vw;
-    top: 2225px;
+    top: 616px;
 }
 @media (max-width: 800px) {
     .section2-encadre {
-        display: none !important;
         right: 6vw;
-        top: 1689px;
+        top: 364px;
         width: 65.5vw;
         height: 301px;
         padding-bottom: 0px;
@@ -198,6 +228,7 @@ div.section2-img-destop {
 
 .section3-titre {
     width: 90vw;
+    position: relative;
     > h2.h2.h2-mobile {
         display: none;
     }
@@ -210,12 +241,12 @@ div.section2-img-destop {
         > h2.h2.h2-mobile {
             display: block;
             text-align: center;
-            width: 60vw;  
+            width: 54vw;  
         }
         > img {
             position: absolute;
-            right: 8.4%;
-            top: 421.5%;
+            right: 2vw;
+            top: -18px;
             width: 11vw;
         } 
         > h2.h2.h2-desktop {
@@ -249,7 +280,29 @@ div.section2-img-destop {
         }
     }
 }
+@media (max-width: 800px) {
+    .section3-colones {
+        width: 90vw;
+        padding-bottom: 64px;
+        > .section3-coloneImg {
+            width: 40vw;
+            margin-right: 5vw;
+            > div {
+                > figure {
+                    height: 209px;
+                    width: 41.6vw;
+                    > img {
+                        width: 44vw;
+                    }
+                }
+                > .section3-figNoMarginBot {
+                    width: 40vw;
+                }
+            }
 
+        }
+    }
+}
 .section4 {
     flex-direction: row;
     background-color: $color-tertiary;

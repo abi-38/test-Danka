@@ -18,14 +18,14 @@ header {
                     display: flex;
                     align-items: center;
                     justify-content: space-around;
+                    position: relative;
                     height: 19vh;
                     > img {
                         padding-right: 5px;
                     }
                     > #trait1 {
                         position: absolute;
-                        top: 77px;
-                        right: 65.3vw;
+                        top: 70px;
                     }
                 }
             }
@@ -39,6 +39,8 @@ header {
         align-items: center;
         justify-content: center;
         text-align: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
         > p {
             margin-top: 0px;
             margin-bottom: 0px;
@@ -56,14 +58,15 @@ header {
         flex-direction: column;
         height: 610px;
         text-align: center;
+        position: relative;
         > .header-ligne {
             width: 24vw;
             position: absolute;
-            top: 414px;
-            right: 14vw;
+            top: 225px;
+            right: 13.5vw;
             @media (max-width: 800px) {
                 width: 41.6vw;
-                top: 458px;
+                top: 268px;
                 right: 27.2vw;
             }
         }

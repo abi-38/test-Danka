@@ -1,6 +1,10 @@
+html, header, main, footer { 
+    overflow-x: hidden !important; 
+}​
+
 body {
     margin: 0px;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .section {
