@@ -23,6 +23,12 @@
         font-weight: 500;
     }
 }
+@media (max-width: 800px) {
+    .btn {
+        height: 45px;
+        width: 32.5vw;
+    }
+}
 
 .etiquette {
     width: 87px;

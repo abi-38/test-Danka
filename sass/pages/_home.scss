@@ -72,7 +72,7 @@
 .carousel-items {
     display: flex;
     overflow-x: visible;
-	margin-left: 1vw;
+	margin-left: 5.8vw;
     scroll-snap-type: x mandatory;
 	text-align: left;
 	list-style: none;
@@ -97,7 +97,7 @@
         overflow-x: scroll;
         padding: 4rem;
         padding-top: 0px;
-        margin-left: 45.3vw;
+        margin-left: 27.3vw;
         .carousel-item {
             flex: 1 0 60vw;
             > .card-carousel {
@@ -131,7 +131,7 @@
 
 .section1-arrows {
     margin-bottom: 109px;
-    width: 90vw;
+    width: 80vw;
     justify-content: right !important;
     > img.arrow-margin {
         margin-right: 8px;
@@ -207,22 +207,22 @@ div.section2-img-destop {
     background-color: white;
     border-radius: 6px;
     flex-direction: column;
-    padding-left: 3.6vw;
-    padding-right: 3.6vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
     padding-bottom: 30px;
-    width: 35.5vw;
+    width: 28.7vw;
     height: 327px;
     position: absolute;
-    right: 13.4vw;
+    right: 12.4vw;
     top: 616px;
 }
 @media (max-width: 800px) {
     .section2-encadre {
         right: 6vw;
         top: 364px;
-        width: 65.5vw;
+        width: 59vw;
         height: 301px;
-        padding-bottom: 0px;
+        padding: 0px 6.4vw 0px 6.4vw;
     }
 }
 
@@ -258,6 +258,7 @@ div.section2-img-destop {
 .section3-colones {
     justify-content: space-around !important;
     width: 60vw;
+    padding-bottom: 120px;
     > .section3-coloneImg {
         flex-direction: column;
         > div {
@@ -309,17 +310,22 @@ div.section2-img-destop {
     height: 700px;
     > .section4-div {
         flex-direction: column;
-        padding: 50px;
-        padding-left: 90px;
-        padding-right: 90px;
+        padding: 50px 12vw 50px 12vw;
+        width: 27.2vw;
+        > .pSupplementaire {
+            display: none;
+        }
+        > #decouvrir {
+            display: none;
+        }
     }
 }
 @media (max-width: 800px) {
     .section.section4 {
         flex-direction: column-reverse;
         > div {
-            padding-left: 24px;
-            padding-right: 24px;
+            padding-left: 6.4vw;
+            padding-right: 6.4vw;
             height: 378px;
             > img {
                 width: 100vw;
@@ -327,6 +333,18 @@ div.section2-img-destop {
             }
         
         } 
+        .section4-div {
+            width: 74vw;
+            > .pSupplementaire {
+                display: block;
+            }
+            > #decouvrir {
+                display: block;
+            }
+            > #nousContacter {
+                display: none;
+            }
+        }
     }
 }
 

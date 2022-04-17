@@ -4,13 +4,16 @@ header {
     }
     > nav.nav-desktop {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         height: 124px;
+        padding-left: 6.4vw;
+        padding-right: 6.4vw;
         > ul {
             display: flex;
             justify-content: space-around;
             align-items: center;
+            padding-left: 0px;
             > li {
                 list-style: none;
                 margin-left: 20px;
@@ -30,6 +33,12 @@ header {
                 }
             }
         }
+        #logo {
+            position: absolute;
+            top: 31px;
+            right: 45vw;
+            height: 68px;
+        }
     }
     
     .bandeau {
@@ -44,6 +53,9 @@ header {
         > p {
             margin-top: 0px;
             margin-bottom: 0px;
+            > a {
+                margin-left: 10px;
+            }
         }
     }
     
@@ -77,16 +89,19 @@ header {
     header {
         > nav.nav-mobile {
             display: flex;
-            width: 90vw;
+            width: 82vw;
             justify-content: space-between;
             align-items: center;
             height: 125px;
+            padding-left: 6.4vw;
+            padding-right: 6.4vw;
             > ul {
                 display: flex;
-                width: 18vw;
+                width: 16vw;
                 list-style: none;
                 justify-content: space-between;
                 align-items: center;
+                padding-left: 0px;
             }
             > #logo {
                 top: 27px;
@@ -96,11 +111,9 @@ header {
         > nav.nav-desktop {
             display: none;
         }
+        .bandeau > p > a {
+            margin-left: 0px;
+        }
     }
 }
 
-#logo {
-    position: absolute;
-    top: 27px;
-    right: 45%;
-}
